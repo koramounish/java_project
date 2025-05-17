@@ -1,4 +1,5 @@
-@Library("kora@main")
+@Library("kora@main") _
 pushDockerHub(
-repoName: "java_project"
+    ecrRepoName: 'java_project'
 )
+
