@@ -1,7 +1,7 @@
 pipeline {
  agent any
   environment {
-    registry = "ybmsr/${projectName}"
+    registry = "kora593/java_project44"
     registryCredential = 'dockerhub_credentials'
     dockerImage = ''
   }
