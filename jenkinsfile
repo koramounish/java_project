@@ -1,7 +1,3 @@
-
-def call(Map pipelineParams){
-def projectName = pipelineParams.ecrRepoName
-
 pipeline {
  agent any
   environment {
@@ -32,5 +28,4 @@ pipeline {
       }
     }
   }
-}
-}
+}}
